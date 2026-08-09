@@ -1,0 +1,6 @@
+*-backups/
+*.lck
+*.sw
+*.swo
+*.tmp
+*.bin
