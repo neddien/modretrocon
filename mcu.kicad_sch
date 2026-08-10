@@ -2414,9 +2414,109 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 171.45 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c075643-afb7-49cb-ac56-aecbfcf12726")
+	)
+	(wire
+		(pts
+			(xy 160.02 149.86) (xy 171.45 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba40103-6db1-4788-8dfc-99961ebb2cbe")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 171.45 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ac08160-ea63-45e3-a6ce-859e4c8664f7")
+	)
+	(wire
+		(pts
+			(xy 160.02 147.32) (xy 171.45 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718ae06e-8485-425f-b9ab-d1f3363063f7")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98e5b1ae-1e12-4283-ba5a-4cc77320ca44")
+	)
+	(label "SDIO0_D2"
+		(at 161.29 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40dd0443-0ab2-4eda-a130-6e81997a0e00")
+	)
+	(label "SDIO0_D0"
+		(at 161.29 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8954c19e-659d-4b62-8ffc-241508097e01")
+	)
+	(label "SDIO0_CLK"
+		(at 161.29 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af16220e-5284-4b16-a5e2-06115cb67031")
+	)
+	(label "SDIO0_D1"
+		(at 161.29 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba46d062-de09-4dee-b8a9-bf9fab1b6c06")
+	)
+	(label "SDIO0_D0"
+		(at 161.29 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea080c0e-51a0-437f-b764-51b9f1cbc38e")
+	)
 	(symbol
 		(lib_id "MCU_ST_STM32F4:STM32F446VETx")
-		(at 130.81 104.14 0)
+		(at 134.62 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2426,7 +2526,7 @@
 		(dnp no)
 		(uuid "ab94b953-abb9-4def-a327-e263c1b2d365")
 		(property "Reference" "U1"
-			(at 149.098 35.814 0)
+			(at 152.908 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2437,7 +2537,7 @@
 			)
 		)
 		(property "Value" "STM32F446VETx"
-			(at 137.668 172.466 0)
+			(at 141.478 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2448,7 +2548,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-100_14x14mm_P0.5mm"
-			(at 110.49 170.18 0)
+			(at 114.3 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2560,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f446ve.pdf"
-			(at 130.81 104.14 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2571,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M4 MCU, 512KB flash, 128KB RAM, 180 MHz, 1.8-3.6V, 81 GPIO, LQFP100"
-			(at 130.81 104.14 0)
+			(at 134.62 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
