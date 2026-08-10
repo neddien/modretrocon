@@ -2424,10 +2424,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ab94b953-abb9-4def-a327-e263c1b2d365")
 		(property "Reference" "U1"
-			(at 135.6548 172.72 0)
+			(at 149.098 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2438,7 +2437,7 @@
 			)
 		)
 		(property "Value" "STM32F446VETx"
-			(at 135.6548 175.26 0)
+			(at 137.668 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2783,12 +2782,6 @@
 			(uuid "fcdb7524-3acc-4585-a367-c26a1bccb0ec")
 		)
 		(instances
-			(project "modretrocon"
-				(path "/4f4dfd23-e96d-40a8-91c2-e53fb8a1f2eb"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
 					(reference "U1")

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 63.5 63.5)
+		(at 101.6 50.8)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "164e4154-4b6e-4fed-ae58-1cee79537616")
 		(property "Sheetname" "IO"
-			(at 63.5 62.7884 0)
+			(at 101.6 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33,7 +33,7 @@
 			)
 		)
 		(property "Sheetfile" "io.kicad_sch"
-			(at 63.5 67.8946 0)
+			(at 101.6 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 63.5 76.2)
+		(at 139.7 50.8)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "4d59c3d8-a5c2-4135-9570-fdfaf506da3f")
 		(property "Sheetname" "MCU"
-			(at 63.5 75.4884 0)
+			(at 139.7 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 63.5 80.5946 0)
+			(at 139.7 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
