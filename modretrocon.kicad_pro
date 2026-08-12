@@ -607,7 +607,16 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "SD0": [
+        "SD0_DAT0",
+        "SD0_DAT1",
+        "SD0_DAT2",
+        "SD0_DAT3",
+        "SD0_CMD",
+        "SD0_CLK"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -648,7 +657,7 @@
         "uuid": "cf6749e4-132f-4e26-b0d6-92782ee54bed"
       }
     ],
-    "used_designators": "C4-5,C16,#FLG2-3,#PWR4-8,R9",
+    "used_designators": "R10,L5,FB1,#PWR42-47,#PWR49-50,#PWR54,C29-36",
     "variants": []
   },
   "sheets": [
