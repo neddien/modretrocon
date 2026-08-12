@@ -2092,7 +2092,7 @@
 	(text_box "3.3V @ 2A Power Rail (MCU, FPGA, USB & FTDI)"
 		(exclude_from_sim no)
 		(at 25.4 68.58 0)
-		(size 139.7 39.37)
+		(size 177.8 39.37)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2192,10 +2192,28 @@
 		(uuid "bf740c03-a1f7-49a3-bcb7-fad813bf2845")
 	)
 	(junction
+		(at 142.24 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "147c7e2c-6a2d-4e02-94c5-2037c7864d1f")
+	)
+	(junction
 		(at 40.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1720b820-2203-4b59-be50-7d1483c6e15d")
+	)
+	(junction
+		(at 149.86 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fe8bad4-43fe-40de-83d9-ec50e4e016ab")
+	)
+	(junction
+		(at 158.75 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2322815f-7ef4-4f01-aa86-8f6f0455a7b6")
 	)
 	(junction
 		(at 96.52 38.1)
@@ -2252,19 +2270,13 @@
 		(uuid "b129b4e2-8df7-4714-bd2c-f30005a35130")
 	)
 	(junction
-		(at 142.24 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b992b695-b743-4eae-8cf4-3c5a648e3c94")
-	)
-	(junction
 		(at 88.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0103082-9cf6-4c1c-9bc2-a65de41f5bc7")
 	)
 	(junction
-		(at 147.32 83.82)
+		(at 165.1 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d667cb75-bdb8-4632-92dd-82cd7ad346c3")
@@ -2294,6 +2306,16 @@
 			(type default)
 		)
 		(uuid "16e5eda2-3510-4d47-a7cf-548190ad8827")
+	)
+	(wire
+		(pts
+			(xy 158.75 92.71) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16eed800-d739-4ef5-841b-6e3b409552d8")
 	)
 	(wire
 		(pts
@@ -2387,6 +2409,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 92.71) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33931159-e444-4ff6-9264-707490f65502")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8f880f-9bd3-47d5-a0cb-f66161142c81")
+	)
+	(wire
+		(pts
 			(xy 30.48 83.82) (xy 41.91 83.82)
 		)
 		(stroke
@@ -2407,16 +2449,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 83.82) (xy 147.32 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b6dcc2a-6cba-4620-a83f-97ee49b972fe")
-	)
-	(wire
-		(pts
 			(xy 138.43 44.45) (xy 138.43 45.72)
 		)
 		(stroke
@@ -2424,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "4cee8012-1fb8-4e06-9704-66d131ddd6b7")
+	)
+	(wire
+		(pts
+			(xy 158.75 83.82) (xy 158.75 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c9fbc4d-f51a-4d77-ac24-2573f7bfe331")
 	)
 	(wire
 		(pts
@@ -2527,16 +2569,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 83.82) (xy 152.4 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87729b87-b719-44ea-a12d-414e1bf8cca1")
-	)
-	(wire
-		(pts
 			(xy 110.49 81.28) (xy 109.22 81.28)
 		)
 		(stroke
@@ -2577,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 147.32 83.82)
+			(xy 165.1 80.01) (xy 165.1 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2724,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "c7f44379-4354-49b1-858e-6b33b2864775")
+	)
+	(wire
+		(pts
+			(xy 142.24 83.82) (xy 170.18 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f5aa1f-f617-4a39-8e20-68e145aae09e")
 	)
 	(wire
 		(pts
@@ -3017,6 +3059,88 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 149.86 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11d26407-bcd9-4f29-bd82-66b1c4647715")
+		(property "Reference" "C37"
+			(at 152.4 88.9063 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 152.4 91.4463 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 149.86 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d956120-282d-48a6-9a31-4701efc22f79")
+		)
+		(pin "2"
+			(uuid "13635439-77d3-4b66-88ba-10ab1ce2abd9")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -3575,6 +3699,84 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d7500f-b3a1-4b10-b5b6-b24d63291322")
+		(property "Reference" "#PWR052"
+			(at 158.75 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbfae284-5dc3-4a20-a355-38e26ebf0894")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4230,6 +4432,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ae11c91-53e7-49e8-861e-694e4440ce24")
+		(property "Reference" "#PWR051"
+			(at 149.86 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "015de3ef-de4b-400a-a15e-b4cb25138ce8")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 151.13 35.56 0)
 		(unit 1)
@@ -4544,7 +4824,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 147.32 80.01 0)
+		(at 165.1 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4555,7 +4835,7 @@
 		(fields_autoplaced yes)
 		(uuid "8745c4c2-854f-412c-8dd3-7b8952c96ab9")
 		(property "Reference" "#FLG03"
-			(at 147.32 78.105 0)
+			(at 165.1 78.105 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4566,7 +4846,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 147.32 74.93 0)
+			(at 165.1 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4576,7 +4856,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4598,7 +4878,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 147.32 80.01 0)
+			(at 165.1 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4615,6 +4895,88 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 158.75 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ad7ab4-44db-46d4-ace9-5e1a7852c918")
+		(property "Reference" "C38"
+			(at 161.29 88.9063 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 161.29 91.4463 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 158.75 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a373c750-de29-4c81-a2e7-6bc3a7e3334b")
+		)
+		(pin "2"
+			(uuid "577bb65f-e618-412f-9f0d-5d52218c1a9d")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5472,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 152.4 83.82 270)
+		(at 170.18 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5121,7 +5483,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b0cedb-af94-4708-b89c-d45e94c9b837")
 		(property "Reference" "#PWR040"
-			(at 148.59 83.82 0)
+			(at 166.37 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +5494,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 156.21 83.82 90)
+			(at 173.99 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5143,7 +5505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 83.82 0)
+			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5154,7 +5516,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 83.82 0)
+			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5165,7 +5527,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 152.4 83.82 0)
+			(at 170.18 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
