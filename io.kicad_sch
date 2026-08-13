@@ -3560,6 +3560,17 @@
 		)
 		(uuid "0b780f9a-6943-4f5c-810a-35733d7d0e77")
 	)
+	(text "TODO: Load caps depend on XTAL model"
+		(exclude_from_sim no)
+		(at 34.29 160.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "4e77d903-29ba-43c3-93c9-ef73eb5882a1")
+	)
 	(text_box "MicroSD"
 		(exclude_from_sim no)
 		(at 154.94 82.55 0)

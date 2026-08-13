@@ -5592,7 +5592,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "1u"
 			(at 60.96 73.6663 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7952,7 +7952,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "10u"
 			(at 27.94 44.4563 0)
 			(show_name no)
 			(do_not_autoplace no)
