@@ -3632,12 +3632,6 @@
 		(uuid "c56dea02-c7db-4da3-863c-f089e1649ac0")
 	)
 	(junction
-		(at 220.98 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00373ca5-e8b1-4a5b-b6bb-e7e6162cbadf")
-	)
-	(junction
 		(at 19.05 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3786,6 +3780,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f77be594-59a3-4fe0-ab5a-bb0b195755a0")
+	)
+	(no_connect
+		(at 220.98 68.58)
+		(uuid "5dbfa63e-bd1e-4a5f-83d0-cfb396e0be93")
 	)
 	(no_connect
 		(at 46.99 110.49)
@@ -4156,16 +4154,6 @@
 			(type default)
 		)
 		(uuid "31178f37-bd5d-4180-b9d9-bf5473dc11a1")
-	)
-	(wire
-		(pts
-			(xy 220.98 69.85) (xy 220.98 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ac491e-a415-4dd1-bd61-be40200acdb6")
 	)
 	(wire
 		(pts
@@ -5019,26 +5007,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 69.85) (xy 228.6 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d65a6fa1-517a-4076-9f72-87aeb2a77e7f")
-	)
-	(wire
-		(pts
-			(xy 220.98 68.58) (xy 220.98 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76e9b46-6b00-4d82-80e2-c8094e4d3569")
-	)
-	(wire
-		(pts
 			(xy 127 67.31) (xy 137.16 67.31)
 		)
 		(stroke
@@ -5527,6 +5495,30 @@
 		)
 		(uuid "fb8e7cf1-5e9a-4e64-a673-e7ec21de481a")
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 261.62 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "027ac329-bc1f-43c2-81e0-2738629be99c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.5467 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "UART0"
 		(shape input)
 		(at 140.97 60.96 0)
@@ -5598,17 +5590,6 @@
 				(justify left)
 			)
 		)
-	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 261.62 30.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bd2f979f-724d-4e4c-8b25-ac057d8b0634")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -8966,7 +8947,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 71.12 0)
+		(at 228.6 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8977,7 +8958,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9b150ef-6d99-40eb-bf8b-f972da5113d6")
 		(property "Reference" "#PWR016"
-			(at 220.98 77.47 0)
+			(at 228.6 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8988,7 +8969,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 76.2 0)
+			(at 228.6 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8998,7 +8979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 71.12 0)
+			(at 228.6 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9009,7 +8990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 71.12 0)
+			(at 228.6 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9020,7 +9001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 71.12 0)
+			(at 228.6 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
