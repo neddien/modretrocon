@@ -52,7 +52,7 @@
 		)
 	)
 	(sheet
-		(at 139.7 50.8)
+		(at 139.7 57.15)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -68,7 +68,7 @@
 		)
 		(uuid "4d59c3d8-a5c2-4135-9570-fdfaf506da3f")
 		(property "Sheetname" "MCU"
-			(at 139.7 50.0884 0)
+			(at 139.7 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -79,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 139.7 55.1946 0)
+			(at 139.7 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,7 +98,53 @@
 		)
 	)
 	(sheet
-		(at 63.5 50.8)
+		(at 101.6 63.5)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bc9988cd-2ca9-4665-b783-46376368c67d")
+		(property "Sheetname" "FTDI"
+			(at 101.6 62.7884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FTDI.kicad_sch"
+			(at 101.6 67.8946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 57.15)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -114,7 +160,7 @@
 		)
 		(uuid "fc2eba07-8169-42be-8db5-39602cf492b9")
 		(property "Sheetname" "5V + 3.3V Power"
-			(at 63.5 50.0884 0)
+			(at 63.5 56.4384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -125,7 +171,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 63.5 55.1946 0)
+			(at 63.5 61.5446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

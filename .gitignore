@@ -4,3 +4,4 @@
 *.swo
 *.tmp
 *.bin
+_autosave*.kicad_*

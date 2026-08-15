@@ -658,7 +658,7 @@
         "uuid": "cf6749e4-132f-4e26-b0d6-92782ee54bed"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J3,P1,L2-3,R14-19,C1-2,C7-9,C45-54,Y1-2,Y4,#PWR17,#PWR19,#PWR21-25,#PWR27-30,#PWR32,#PWR66-91,U1,U5-6",
     "variants": []
   },
   "sheets": [
@@ -677,6 +677,10 @@
     [
       "4d59c3d8-a5c2-4135-9570-fdfaf506da3f",
       "MCU"
+    ],
+    [
+      "bc9988cd-2ca9-4665-b783-46376368c67d",
+      "FTDI"
     ]
   ],
   "text_variables": {},
