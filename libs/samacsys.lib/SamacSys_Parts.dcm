@@ -1,0 +1,51 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP ABLS7M2-12.000MHZ-D2Y-T
+D SMD MICROPROCESSOR CRYSTAL
+K
+F https://abracon.com/Resonators/ABLS7M2.pdf
+$ENDCMP
+#
+$CMP DM3AT-SF-PEJM5_41_
+D Memory Card Connectors SD R/A PUSH-PUSH SMD CONN MICRO
+K
+F https://www.mouser.kr/datasheet/3/731/1/DM3AT_SF_PEJM5_CL0609_0031_0_00_Catalog_D49662_en.pdf
+$ENDCMP
+#
+$CMP DS04-254-1S-05BK
+D 5 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Short Pin, DIP Switch
+K
+F https://www.sameskydevices.com/product/resource/ds04-254.pdf
+$ENDCMP
+#
+$CMP SLW-116641-3A-RA-S-D
+D 11.6 x 6 x 4.1 mm; 3 mm Raised Slide Actuator; Right Angle; Through Hole; Slide Switch
+K
+F https://www.sameskydevices.com/product/resource/slw-116641-3a-ra-s-d.pdf
+$ENDCMP
+#
+$CMP TS3A44159PWRG4
+D Analog Switch ICs 0.45O Quad SPDT Ana Sw 4Ch
+K
+F http://www.ti.com/lit/ds/symlink/ts3a44159.pdf
+$ENDCMP
+#
+$CMP TS02-66-50-BK-100-LCR-D
+D 6 x 6 mm, 5 mm Actuator Height Off PCB, 100 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch
+K
+F https://www.sameskydevices.com/product/resource/ts02.pdf
+$ENDCMP
+#
+$CMP LTST-C170KGKT
+D LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package
+K
+F http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin
+$ENDCMP
+#
+#End Doc Library

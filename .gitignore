@@ -5,3 +5,4 @@
 *.tmp
 *.bin
 _autosave*.kicad_*
+.history/

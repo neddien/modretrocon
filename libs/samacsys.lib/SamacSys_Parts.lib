@@ -1,0 +1,270 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.37/8/4/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1050 600 50 H V L CNN
+F1 "NE555DR" 1050 500 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1050 400 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1050 300 50 H I L CNN
+F4 "Single Precision Timer" 1050 200 50 H I L CNN "Description"
+F5 "1.75" 1050 100 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 0 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1050 -100 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-NE555DR" 1050 -200 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-NE555DR" 1050 -300 50 H I L CNN "Mouser Price/Stock"
+F10 "1218414" 1050 -400 50 H I L CNN "RS Part Number"
+F11 "http//uk.rs-online.com/web/p/products/1218414" 1050 -500 50 H I L CNN "RS Price/Stock"
+DRAW
+X GND 1 600 -1000 200 U 50 50 0 0 B
+X TRIG 2 0 -400 200 R 50 50 0 0 B
+X OUT 3 1200 -200 200 L 50 50 0 0 B
+X ~RESET 4 0 0 200 R 50 50 0 0 B
+X CONT 5 500 600 200 D 50 50 0 0 B
+X THRES 6 0 -300 200 R 50 50 0 0 B
+X DISCH 7 0 -100 200 R 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -800 200 -800 200 400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model UJ20-C-H-G-MSMT-4B-P16-TR
+#/21537069/2136300/2.50/16/2/Connector
+DEF UJ20-C-H-G-MSMT-4B-P16-TR J 0 30 Y Y 1 F N
+F0 "J" 1050 300 50 H V L CNN
+F1 "UJ20-C-H-G-MSMT-4B-P16-TR" 1050 200 50 H V L CNN
+F2 "UJ20CHGMSMT4BP16TR" 1050 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/uj20-c-h-g-msmt-4b-p16-tr.pdf" 1050 0 50 H I L CNN
+F4 "Type C, USB 2.0, 480 Mbps, 20 Vdc, 3 A, Horizontal, Mid Mount SMT, SMT Contacts, Gold Flash, 16 Pins, USB Receptacle" 1050 -100 50 H I L CNN "Description"
+F5 "2.6" 1050 -200 50 H I L CNN "Height"
+F6 "Same Sky" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "UJ20-C-H-G-MSMT-4B-P16-TR" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_1 A1 0 0 200 R 50 50 0 0 P
+X VBUS_1 A4 0 -100 200 R 50 50 0 0 P
+X CC1 A5 0 -200 200 R 50 50 0 0 P
+X DP1 A6 0 -300 200 R 50 50 0 0 P
+X DN1 A7 0 -400 200 R 50 50 0 0 P
+X SBU1 A8 0 -500 200 R 50 50 0 0 P
+X GND_2 B1 0 -600 200 R 50 50 0 0 P
+X VBUS_2 B4 0 -700 200 R 50 50 0 0 P
+X CC2 B5 1200 0 200 L 50 50 0 0 P
+X DP2 B6 1200 -100 200 L 50 50 0 0 P
+X DN2 B7 1200 -200 200 L 50 50 0 0 P
+X SBU2 B8 1200 -300 200 L 50 50 0 0 P
+X MH_1 MH1 1200 -400 200 L 50 50 0 0 P
+X MH_2 MH2 1200 -500 200 L 50 50 0 0 P
+X MH_3 MH3 1200 -600 200 L 50 50 0 0 P
+X MH_4 MH4 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ABLS7M2-12.000MHZ-D2Y-T
+#/2791357/2136300/2.50/2/2/Crystal or Oscillator
+DEF ABLS7M2-12.000MHZ-D2Y-T Y 0 30 Y Y 1 F N
+F0 "Y" 350 250 50 H V L CNN
+F1 "ABLS7M2-12.000MHZ-D2Y-T" 350 150 50 H V L CNN
+F2 "ABLS7" 350 50 50 H I L CNN
+F3 "https://abracon.com/Resonators/ABLS7M2.pdf" 350 -50 50 H I L CNN
+F4 "SMD MICROPROCESSOR CRYSTAL" 350 -150 50 H I L CNN "Description"
+F5 "2.3" 350 -250 50 H I L CNN "Height"
+F6 "ABRACON" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "ABLS7M2-12.000MHZ-D2Y-T" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "815-ABLS7M212MHZD2YT" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ABRACON/ABLS7M2-12.000MHZ-D2Y-T?qs=r5DSvlrkXmKomjxE9i5BqQ%3D%3D" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 350 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 0 100 L 50 50 0 0 P
+P 2 0 1 6 120 100 120 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 5 0 1 6 160 140 160 -140 240 -140 240 140 160 140 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 120 0 100 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DM3AT-SF-PEJM5_41_
+#/240004/2136300/2.50/15/4/Connector
+DEF DM3AT-SF-PEJM5_41_ J 0 30 Y Y 1 F N
+F0 "J" 1350 800 50 H V L CNN
+F1 "DM3AT-SF-PEJM5_41_" 1350 700 50 H V L CNN
+F2 "DM3ATSFPEJM541" 1350 600 50 H I L CNN
+F3 "https://www.mouser.kr/datasheet/3/731/1/DM3AT_SF_PEJM5_CL0609_0031_0_00_Catalog_D49662_en.pdf" 1350 500 50 H I L CNN
+F4 "Memory Card Connectors SD R/A PUSH-PUSH SMD CONN MICRO" 1350 400 50 H I L CNN "Description"
+F5 "" 1350 300 50 H I L CNN "Height"
+F6 "798-DM3ATSFPEJM541" 1350 200 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM541?qs=iyLo5FA4poAlFf1J7h9Amg%3D%3D" 1350 100 50 H I L CNN "Mouser Price/Stock"
+F8 "Hirose" 1350 0 50 H I L CNN "Manufacturer_Name"
+F9 "DM3AT-SF-PEJM5(41)" 1350 -100 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X DAT2 1 1100 800 200 D 50 50 0 0 P
+X CD/DAT3 2 1000 800 200 D 50 50 0 0 P
+X CMD 3 900 800 200 D 50 50 0 0 P
+X VDD 4 800 800 200 D 50 50 0 0 P
+X CLK 5 700 800 200 D 50 50 0 0 P
+X VSS 6 600 800 200 D 50 50 0 0 P
+X DAT0 7 500 800 200 D 50 50 0 0 P
+X DAT1 8 400 800 200 D 50 50 0 0 P
+X MP1 MP1 1200 800 200 D 50 50 0 0 P
+X MP2 MP2 0 0 200 R 50 50 0 0 P
+X MP3 MP3 0 -100 200 R 50 50 0 0 P
+X MP4 MP4 0 -200 200 R 50 50 0 0 P
+X MP5 MP5 1500 0 200 L 50 50 0 0 P
+X MP6 MP6 700 -800 200 U 50 50 0 0 P
+X MP7 MP7 300 800 200 D 50 50 0 0 P
+P 5 0 1 6 200 600 1300 600 1300 -600 200 -600 200 600 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DS04-254-1S-05BK
+#/20160839/2136300/2.50/10/2/Switch
+DEF DS04-254-1S-05BK S 0 30 Y Y 1 F N
+F0 "S" 1150 300 50 H V L CNN
+F1 "DS04-254-1S-05BK" 1150 200 50 H V L CNN
+F2 "DS04-254-1S-05BK" 1150 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/ds04-254.pdf" 1150 0 50 H I L CNN
+F4 "5 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Short Pin, DIP Switch" 1150 -100 50 H I L CNN "Description"
+F5 "" 1150 -200 50 H I L CNN "Height"
+F6 "" 1150 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 1150 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 1150 -500 50 H I L CNN "Manufacturer_Name"
+F9 "DS04-254-1S-05BK" 1150 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X COM_1 1 0 0 200 R 50 50 0 0 P
+X COM_2 2 0 -100 200 R 50 50 0 0 P
+X COM_3 3 0 -200 200 R 50 50 0 0 P
+X COM_4 4 0 -300 200 R 50 50 0 0 P
+X COM_5 5 0 -400 200 R 50 50 0 0 P
+X N.O._1 6 1300 0 200 L 50 50 0 0 P
+X N.O._2 7 1300 -100 200 L 50 50 0 0 P
+X N.O._3 8 1300 -200 200 L 50 50 0 0 P
+X N.O._4 9 1300 -300 200 L 50 50 0 0 P
+X N.O._5 10 1300 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SLW-116641-3A-RA-S-D
+#/20164106/2136300/2.50/3/2/Switch
+DEF SLW-116641-3A-RA-S-D S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "SLW-116641-3A-RA-S-D" 750 200 50 H V L CNN
+F2 "SLW1166413ARASD" 750 100 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/slw-116641-3a-ra-s-d.pdf" 750 0 50 H I L CNN
+F4 "11.6 x 6 x 4.1 mm; 3 mm Raised Slide Actuator; Right Angle; Through Hole; Slide Switch" 750 -100 50 H I L CNN "Description"
+F5 "4.3" 750 -200 50 H I L CNN "Height"
+F6 "" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Same Sky" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "SLW-116641-3A-RA-S-D" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X N.C. 1 0 0 200 R 50 50 0 0 N
+X COM 2 0 -100 200 R 50 50 0 0 P
+X N.O. 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS3A44159PWRG4
+#/716851/2136300/2.50/16/0/Integrated Circuit
+DEF TS3A44159PWRG4 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "TS3A44159PWRG4" 1050 200 50 H V L CNN
+F2 "SOP65P640X120-16N" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ts3a44159.pdf" 1050 0 50 H I L CNN
+F4 "Analog Switch ICs 0.45O Quad SPDT Ana Sw 4Ch" 1050 -100 50 H I L CNN "Description"
+F5 "1.2" 1050 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TS3A44159PWRG4" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TS3A44159PWRG4" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TS3A44159PWRG4?qs=0OHPnBYoB%2FlMVwWgxjiSFQ%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TS3A44159PWRG4" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ts3a44159pwrg4/texas-instruments.html?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO2 1 0 0 200 R 50 50 0 0 P
+X COM2 2 0 -100 200 R 50 50 0 0 P
+X NC2 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X NO3 5 0 -400 200 R 50 50 0 0 P
+X COM3 6 0 -500 200 R 50 50 0 0 P
+X NC3 7 0 -600 200 R 50 50 0 0 P
+X IN3-4 8 0 -700 200 R 50 50 0 0 P
+X IN1-2 16 1200 0 200 L 50 50 0 0 P
+X NC1 15 1200 -100 200 L 50 50 0 0 P
+X COM1 14 1200 -200 200 L 50 50 0 0 P
+X NO1 13 1200 -300 200 L 50 50 0 0 P
+X VCC 12 1200 -400 200 L 50 50 0 0 P
+X NC4 11 1200 -500 200 L 50 50 0 0 P
+X COM4 10 1200 -600 200 L 50 50 0 0 P
+X NO4 9 1200 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TS02-66-50-BK-100-LCR-D
+#/15512627/2136300/2.50/4/2/Switch (4-Pin Push)
+DEF TS02-66-50-BK-100-LCR-D S 0 30 Y Y 1 F N
+F0 "S" 500 250 50 H V L CNN
+F1 "TS02-66-50-BK-100-LCR-D" 500 150 50 H V L CNN
+F2 "TS0266100BK100LCRD" 500 50 50 H I L CNN
+F3 "https://www.sameskydevices.com/product/resource/ts02.pdf" 500 -50 50 H I L CNN
+F4 "6 x 6 mm, 5 mm Actuator Height Off PCB, 100 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch" 500 -150 50 H I L CNN "Description"
+F5 "10.2" 500 -250 50 H I L CNN "Height"
+F6 "Same Sky" 500 -350 50 H I L CNN "Manufacturer_Name"
+F7 "TS02-66-50-BK-100-LCR-D" 500 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "179-TS026650BK100LCR" 500 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TS02-66-50-BK-100-LCR-D?qs=A6eO%252BMLsxmQ2%2FFf8jET%252BrA%3D%3D" 500 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "TS02-66-50-BK-100-LCR-D" 500 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ts02-66-50-bk-100-lcr-d/cui-devices?region=nac" 500 -850 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X ~ 3 0 0 100 R 50 50 0 0 P
+X ~ 4 0 -200 100 R 50 50 0 0 P
+X ~ 1 600 0 100 L 50 50 0 0 P
+X ~ 2 600 -200 100 L 50 50 0 0 P
+P 2 0 1 6 100 -200 100 0 N
+P 2 0 1 6 100 -100 200 -100 N
+P 2 0 1 6 400 -100 500 -100 N
+P 2 0 1 6 500 -200 500 0 N
+P 2 0 1 6 240 -90 330 0 N
+C 220 -100 20 0 1 10 N
+C 380 -100 20 0 1 10 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LTST-C170KGKT
+#/279694/2136300/2.50/2/4/LED
+DEF LTST-C170KGKT LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "LTST-C170KGKT" 500 250 50 H V L BNN
+F2 "LEDC2012X110N" 500 150 50 H I L BNN
+F3 "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin" 500 50 50 H I L BNN
+F4 "LED,SMD,0805,Green,35mcd,130deg Lite-On LTST-C170KGKT, CHIPLED 0805 Series Green LED, 571 nm 2012 (0805), Rectangle Lens SMD package" 500 -50 50 H I L BNN "Description"
+F5 "1.1" 500 -150 50 H I L BNN "Height"
+F6 "Lite-On" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "LTST-C170KGKT" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "859-LTST-C170KGKT" 500 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Lite-On/LTST-C170KGKT?qs=o1ACzGp%252Bek3F8d3sLmVFGg%3D%3D" 500 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "LTST-C170KGKT" 500 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ltst-c170kgkt_1/lite-on-technology.html?utm_currency=USD&region=europe" 500 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#End Library
