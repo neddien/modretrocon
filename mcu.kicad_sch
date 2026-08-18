@@ -5157,6 +5157,16 @@
 		)
 		(uuid "50533e44-e427-48f4-8f16-c76c226c0cc9")
 	)
+	(text "use nmost for these?"
+		(exclude_from_sim no)
+		(at 370.586 145.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "54e99552-c99a-49b6-8cf9-a0458c6ba7ec")
+	)
 	(text "Use LTST-C170TBKT for all LEDs!"
 		(exclude_from_sim no)
 		(at 313.182 156.718 90)
