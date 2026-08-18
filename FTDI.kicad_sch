@@ -2922,17 +2922,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO: Pick XTAL from FTDI's Datasheet"
-		(exclude_from_sim no)
-		(at 154.94 89.916 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-		)
-		(uuid "3a34695d-d222-4ee1-bff6-258ded66bc18")
-	)
 	(text "what to do with these two?"
 		(exclude_from_sim no)
 		(at 112.776 140.716 0)
@@ -6142,7 +6131,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12Mhz 20ppm"
+		(property "Value" "12Mhz"
 			(at 148.59 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6153,7 +6142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:ABLS7"
+		(property "Footprint" "SamacSys_Parts:ABLS7M212000MHZD2YT"
 			(at 144.78 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6175,7 +6164,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "ABLS7M212000MHZD2YT Two pin crystal 12Mhz 20ppm"
 			(at 144.78 81.28 0)
 			(hide yes)
 			(show_name no)

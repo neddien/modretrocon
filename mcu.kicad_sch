@@ -5127,9 +5127,9 @@
 		)
 		(uuid "2563d664-6d22-4123-90cf-5c72a42b8e41")
 	)
-	(text "1% Resistors"
+	(text "Need 1% Resistors here!"
 		(exclude_from_sim no)
-		(at 101.6 239.776 0)
+		(at 104.902 239.776 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5137,7 +5137,7 @@
 		)
 		(uuid "2642b0eb-b7fe-40b6-b9b9-9d5adb61e707")
 	)
-	(text "values for these matter! need fast rise and fall!\n"
+	(text "3.3k good value for I2C open-drain"
 		(exclude_from_sim no)
 		(at 160.528 121.666 0)
 		(effects
@@ -5147,7 +5147,7 @@
 		)
 		(uuid "43965d46-8035-4fe7-b0cd-e17fce3350c7")
 	)
-	(text "values for these matter! need fast rise and fall!\n"
+	(text "3.3k good value for I2C open-drain"
 		(exclude_from_sim no)
 		(at 277.622 110.49 0)
 		(effects
@@ -5167,26 +5167,15 @@
 		)
 		(uuid "95ebe224-7176-4a31-9b64-a47caba96706")
 	)
-	(text "TODO: Choose a part & its load cap"
+	(text "Need 1% Resistors here!"
 		(exclude_from_sim no)
-		(at 61.214 168.148 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(italic yes)
-			)
-		)
-		(uuid "bc77a80a-f26e-45ac-ad0a-64feeaaca9f0")
-	)
-	(text "1% Resistors"
-		(exclude_from_sim no)
-		(at 101.6 197.104 0)
+		(at 104.902 197.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "c241452e-c3ca-4114-a881-d78f346989eb")
+		(uuid "c1b3af8a-e951-42a3-911c-0efeba238406")
 	)
 	(text_box "CAN XCVers"
 		(exclude_from_sim no)
@@ -6207,6 +6196,16 @@
 			(type default)
 		)
 		(uuid "1bdfacfd-d526-4644-a2c2-63f594123cda")
+	)
+	(wire
+		(pts
+			(xy 251.46 175.26) (xy 266.7 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bee00c2-781d-497a-8024-ad2f3322b6a8")
 	)
 	(wire
 		(pts
@@ -9898,6 +9897,16 @@
 		)
 		(uuid "f21aff16-e388-4fde-bbb9-65b36d5d4768")
 	)
+	(label "SD_DET"
+		(at 266.7 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5698788-2b83-4e60-9eda-5e5c461101d7")
+	)
 	(label "GPIO14"
 		(at 374.65 119.38 0)
 		(effects
@@ -11575,7 +11584,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "12Mhz 20ppm"
+		(property "Value" "12Mhz"
 			(at 55.88 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11586,7 +11595,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:ABLS7"
+		(property "Footprint" "SamacSys_Parts:ABLS7M212000MHZD2YT"
 			(at 52.07 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -11608,7 +11617,7 @@
 				)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "ABLS7M212000MHZD2YT Two pin crystal 12Mhz 20ppm"
 			(at 52.07 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13641,7 +13650,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "27p"
 			(at 40.6337 168.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13963,7 +13972,7 @@
 				)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "27p"
 			(at 40.6463 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)

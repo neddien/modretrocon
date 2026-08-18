@@ -48,4 +48,10 @@ K
 F http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin
 $ENDCMP
 #
+$CMP ABLS7M2-12.000MHZ-D-2Y-T
+D ABRACON - ABLS7M2-12.000MHZ-D-2Y-T - CRYSTAL, 12MHZ, 18PF, HC-49US
+K
+F http://abracon.com/Resonators/ABLS7M2.pdf
+$ENDCMP
+#
 #End Doc Library
