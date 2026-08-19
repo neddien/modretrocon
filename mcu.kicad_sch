@@ -5157,25 +5157,15 @@
 		)
 		(uuid "50533e44-e427-48f4-8f16-c76c226c0cc9")
 	)
-	(text "use nmost for these?"
+	(text "STM32F429 GPIO pins can provide 25mA max\nWe need 15mA for these LEDs"
 		(exclude_from_sim no)
-		(at 370.586 145.288 0)
+		(at 341.122 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "54e99552-c99a-49b6-8cf9-a0458c6ba7ec")
-	)
-	(text "Use LTST-C170TBKT for all LEDs!"
-		(exclude_from_sim no)
-		(at 313.182 156.718 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95ebe224-7176-4a31-9b64-a47caba96706")
 	)
 	(text "Need 1% Resistors here!"
 		(exclude_from_sim no)
@@ -6789,16 +6779,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 200.66) (xy 185.42 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e16a6d5-3a0a-4a30-ad97-dcce48b7d44d")
-	)
-	(wire
-		(pts
 			(xy 251.46 104.14) (xy 266.7 104.14)
 		)
 		(stroke
@@ -8339,6 +8319,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 175.26) (xy 185.42 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd7e2de-6d17-48d0-aa6e-9df95bd1d72f")
+	)
+	(wire
+		(pts
 			(xy 251.46 83.82) (xy 266.7 83.82)
 		)
 		(stroke
@@ -8376,6 +8366,16 @@
 			(type default)
 		)
 		(uuid "ce288a12-7d93-4ee2-b2ef-80e359be572b")
+	)
+	(wire
+		(pts
+			(xy 170.18 172.72) (xy 185.42 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce646872-19d7-46e7-b614-663f875769e6")
 	)
 	(wire
 		(pts
@@ -8977,6 +8977,16 @@
 		)
 		(uuid "11229cf0-56be-4807-8648-9573e19a5230")
 	)
+	(label "LED4"
+		(at 170.18 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12728493-4126-436e-ae9d-e1910b20820b")
+	)
 	(label "I2C2_SDA"
 		(at 152.4 124.46 0)
 		(effects
@@ -9017,7 +9027,7 @@
 		)
 		(uuid "1db21ca6-3820-4c73-bf3c-6b7b9fd4a313")
 	)
-	(label "RED_LED1"
+	(label "LED4"
 		(at 361.95 175.26 180)
 		(effects
 			(font
@@ -9027,17 +9037,7 @@
 		)
 		(uuid "1e419768-b9b3-4fed-98f2-0496bdf83ab3")
 	)
-	(label "RED_LED1"
-		(at 170.18 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fe0c11c-d75f-42c5-9bab-dfcfecaef56b")
-	)
-	(label "BLUE_LED1"
+	(label "LED2"
 		(at 170.18 170.18 0)
 		(effects
 			(font
@@ -9047,7 +9047,7 @@
 		)
 		(uuid "21118d47-3d05-47ab-b06f-bd6a194d70a5")
 	)
-	(label "GPIO10"
+	(label "GPIO11"
 		(at 170.18 109.22 0)
 		(effects
 			(font
@@ -9077,7 +9077,7 @@
 		)
 		(uuid "351cd5cc-4006-49b7-81de-e3cc1bb2b909")
 	)
-	(label "GPIO2"
+	(label "GPIO3"
 		(at 170.18 88.9 0)
 		(effects
 			(font
@@ -9117,7 +9117,7 @@
 		)
 		(uuid "3b6a1ca7-3aa8-4888-8071-2536f650c470")
 	)
-	(label "GPIO13"
+	(label "GPIO14"
 		(at 170.18 116.84 0)
 		(effects
 			(font
@@ -9137,7 +9137,7 @@
 		)
 		(uuid "424917bf-af68-4419-945f-11cb27eb62ee")
 	)
-	(label "GPIO7"
+	(label "GPIO8"
 		(at 170.18 101.6 0)
 		(effects
 			(font
@@ -9167,7 +9167,7 @@
 		)
 		(uuid "4915ae35-93b2-45da-b35a-15e0dd86a9c0")
 	)
-	(label "GPIO6"
+	(label "GPIO7"
 		(at 170.18 99.06 0)
 		(effects
 			(font
@@ -9186,6 +9186,16 @@
 			(justify left bottom)
 		)
 		(uuid "4db152d3-bea0-4fa0-ba3a-8ad87d759d03")
+	)
+	(label "LED3"
+		(at 170.18 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f0821a3-34eb-48dd-b59e-54486ea656f3")
 	)
 	(label "JTAG_TMS"
 		(at 266.7 88.9 180)
@@ -9267,7 +9277,7 @@
 		)
 		(uuid "5be6f7d0-afc8-41ae-8208-9dfcd4fe45d1")
 	)
-	(label "GPIO8"
+	(label "GPIO9"
 		(at 170.18 104.14 0)
 		(effects
 			(font
@@ -9277,7 +9287,7 @@
 		)
 		(uuid "6807ffff-4652-45b8-b083-53e549c6aa06")
 	)
-	(label "GPIO4"
+	(label "GPIO5"
 		(at 170.18 93.98 0)
 		(effects
 			(font
@@ -9317,7 +9327,7 @@
 		)
 		(uuid "732bdd00-418d-49dc-a2b6-b80a84741f1d")
 	)
-	(label "GPIO14"
+	(label "GPIO15"
 		(at 170.18 119.38 0)
 		(effects
 			(font
@@ -9367,7 +9377,7 @@
 		)
 		(uuid "7897d6cc-abf3-4046-ae2f-72c9b28213bb")
 	)
-	(label "GPIO12"
+	(label "GPIO13"
 		(at 170.18 114.3 0)
 		(effects
 			(font
@@ -9427,7 +9437,7 @@
 		)
 		(uuid "835509a1-61f6-4d78-b5c0-2e4c802eb413")
 	)
-	(label "BLUE_LED1"
+	(label "LED3"
 		(at 361.95 163.83 180)
 		(effects
 			(font
@@ -9447,7 +9457,7 @@
 		)
 		(uuid "843028c4-49fe-4c5d-9a4b-e084440f2c99")
 	)
-	(label "GPIO9"
+	(label "GPIO10"
 		(at 170.18 106.68 0)
 		(effects
 			(font
@@ -9577,7 +9587,7 @@
 		)
 		(uuid "98e38826-7562-43c3-9db4-fd04152c39ab")
 	)
-	(label "MCU_GOOD_LED"
+	(label "GPIO0"
 		(at 170.18 81.28 0)
 		(effects
 			(font
@@ -9617,7 +9627,7 @@
 		)
 		(uuid "a4e2bafd-f7d2-425d-a34f-e8eb98c10560")
 	)
-	(label "GPIO0"
+	(label "GPIO1"
 		(at 170.18 83.82 0)
 		(effects
 			(font
@@ -9637,7 +9647,7 @@
 		)
 		(uuid "a9db5751-a1f3-4262-a5a4-b7f4e2ee1a3f")
 	)
-	(label "GPIO3"
+	(label "GPIO4"
 		(at 170.18 91.44 0)
 		(effects
 			(font
@@ -9657,7 +9667,7 @@
 		)
 		(uuid "affe013d-b442-4f6b-a5c1-c341e222c924")
 	)
-	(label "GREEN_LED1"
+	(label "LED1"
 		(at 170.18 167.64 0)
 		(effects
 			(font
@@ -9757,7 +9767,7 @@
 		)
 		(uuid "c2f6e112-9039-40c2-9985-2a6fd240f4fb")
 	)
-	(label "GPIO5"
+	(label "GPIO6"
 		(at 170.18 96.52 0)
 		(effects
 			(font
@@ -9767,7 +9777,7 @@
 		)
 		(uuid "c652f555-6cad-4d24-ae7a-b03f80d566dd")
 	)
-	(label "MCU_GOOD_LED"
+	(label "LED1"
 		(at 361.95 140.97 180)
 		(effects
 			(font
@@ -9787,7 +9797,7 @@
 		)
 		(uuid "c87478b3-fd66-4edf-98ee-9bd40f5da9ea")
 	)
-	(label "GPIO1"
+	(label "GPIO2"
 		(at 170.18 86.36 0)
 		(effects
 			(font
@@ -9817,7 +9827,7 @@
 		)
 		(uuid "d5f792df-7cd6-48ca-9e3e-be2b3460dfa9")
 	)
-	(label "GPIO11"
+	(label "GPIO12"
 		(at 170.18 111.76 0)
 		(effects
 			(font
@@ -9957,7 +9967,7 @@
 		)
 		(uuid "fcc575d7-6e74-42d4-a894-26524795fdb6")
 	)
-	(label "GREEN_LED1"
+	(label "LED2"
 		(at 361.95 152.4 180)
 		(effects
 			(font
@@ -11096,6 +11106,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 330.2 152.4 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22eaf6e5-9e8b-42d1-ae1a-6de915165e0a")
+		(property "Reference" "D7"
+			(at 328.6125 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED2"
+			(at 328.6125 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
+			(at 330.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
+			(at 330.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTST-C170KGKT Light emitting diode"
+			(at 330.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 330.2 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5abf8bb0-0398-454c-8307-81b6deb14013")
+		)
+		(pin "1"
+			(uuid "ffc77d3c-64f5-4dec-b93a-f6da40d7e867")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 172.72 142.24 180)
 		(unit 1)
@@ -11891,98 +11992,6 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 175.26 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "37ecd7c1-9499-46aa-8636-8f9b00cd53b9")
-		(property "Reference" "D10"
-			(at 328.6125 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RED_LED1"
-			(at 328.6125 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 330.2 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
-			(at 330.2 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7727daa2-cdee-49bf-ae87-21fa87717441")
-		)
-		(pin "1"
-			(uuid "b97f8e1a-6ccc-4cca-813a-8f7da256b549")
-		)
-		(instances
-			(project "modretrocon"
-				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -13092,7 +13101,7 @@
 				)
 			)
 		)
-		(property "Value" "MCU_GOOD_LED"
+		(property "Value" "LED1"
 			(at 328.6125 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13102,7 +13111,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
 			(at 330.2 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13113,7 +13122,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
 			(at 330.2 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13124,7 +13133,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "LTST-C170KGKT Light emitting diode"
 			(at 330.2 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13581,7 +13590,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "62"
 			(at 341.63 171.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13955,6 +13964,97 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 330.2 163.83 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "86223ac3-feb7-4c61-bee6-4ef6e20d8bd5")
+		(property "Reference" "D8"
+			(at 328.6125 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED3"
+			(at 328.6125 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
+			(at 330.2 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
+			(at 330.2 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTST-C170KGKT Light emitting diode"
+			(at 330.2 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 330.2 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "205ae7fa-d4fa-488f-8ade-5050aa9f8da5")
+		)
+		(pin "1"
+			(uuid "c9ffb443-194c-4af6-b886-e64fc63795a8")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -14784,7 +14884,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "62"
 			(at 341.63 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15161,97 +15261,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 152.4 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a56c5595-122e-446b-bc1c-0daab1cb7e7c")
-		(property "Reference" "D7"
-			(at 328.6125 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GREEN_LED1"
-			(at 328.6125 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 330.2 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
-			(at 330.2 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "392f879e-b7c1-4d14-8891-b5863c9d028b")
-		)
-		(pin "1"
-			(uuid "2c17cbe0-f758-4cdd-bf32-4f85bec08cd1")
-		)
-		(instances
-			(project "modretrocon"
-				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 52.07 43.18 0)
 		(unit 1)
@@ -15597,7 +15606,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "62"
 			(at 341.63 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15732,6 +15741,97 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
 					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 330.2 175.26 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3a69710-2fcd-42c6-b5e7-733a5be479ec")
+		(property "Reference" "D9"
+			(at 328.6125 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED4"
+			(at 328.6125 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
+			(at 330.2 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
+			(at 330.2 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTST-C170KGKT Light emitting diode"
+			(at 330.2 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 330.2 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fda2f337-6bc7-422f-afb2-1388febe68ee")
+		)
+		(pin "1"
+			(uuid "028a0878-382d-4fb2-9846-9247c0230327")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -16894,7 +16994,7 @@
 				)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "62"
 			(at 341.63 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17189,98 +17289,6 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 330.2 163.83 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e2fdf215-eed5-469d-9ad1-1632d7f74a51")
-		(property "Reference" "D9"
-			(at 328.6125 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BLUE_LED1"
-			(at 328.6125 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 330.2 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
-			(at 330.2 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 330.2 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 330.2 163.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "88a9859f-85b6-4e92-af5c-b537bd09d37e")
-		)
-		(pin "1"
-			(uuid "6d5cdb9b-c038-42aa-9006-9780d4d5ccce")
-		)
-		(instances
-			(project "modretrocon"
-				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/4d59c3d8-a5c2-4135-9570-fdfaf506da3f"
-					(reference "D9")
 					(unit 1)
 				)
 			)

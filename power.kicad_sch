@@ -3550,7 +3550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "180"
 			(at 152.4 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,6 +3996,96 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c3e432c-f95a-4b0c-a9fd-38c123ba75e9")
+		(property "Reference" "D12"
+			(at 170.942 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_GOOD"
+			(at 173.736 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
+			(at 166.37 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
+			(at 166.37 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTST-C170KGKT Light emitting diode"
+			(at 166.37 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "bc569067-9f48-48b7-a3de-096a23639c94")
+		)
+		(pin "1"
+			(uuid "3dfddd26-618c-42ec-b7d1-fd48140589b6")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -4632,99 +4722,6 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 149.86 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6200ebba-fbb2-4d42-9360-846c8aba454e")
-		(property "Reference" "D2"
-			(at 153.67 49.8475 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5V_GOOD"
-			(at 153.67 52.3875 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 149.86 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
-			(at 149.86 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 149.86 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e993379f-9019-4b6e-9d04-94966deab449")
-		)
-		(pin "1"
-			(uuid "6d432bcb-be07-4492-a3e4-710e5556aa59")
-		)
-		(instances
-			(project "modretrocon"
-				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5440,6 +5437,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 133.35 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93796cbe-584d-4caf-a1b8-2dc3ce730025")
+		(property "Reference" "D10"
+			(at 137.922 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS_GOOD"
+			(at 141.224 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
+			(at 133.35 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
+			(at 133.35 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTST-C170KGKT Light emitting diode"
+			(at 133.35 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 133.35 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5a584de-40f0-4b44-83ec-d449525ef386")
+		)
+		(pin "1"
+			(uuid "703731bb-94ce-4bc3-9a2a-bd357cd9eecb")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 133.35 40.64 0)
 		(unit 1)
@@ -5462,7 +5549,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "180"
 			(at 135.89 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5522,99 +5609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 166.37 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9bc61f17-9a66-44ce-8a69-89912f5c13c4")
-		(property "Reference" "D3"
-			(at 170.18 49.8475 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3_GOOD"
-			(at 170.18 52.3875 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 166.37 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
-			(at 166.37 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 166.37 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 166.37 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "82d9781d-b2e8-4d1b-a495-aeaf4c71d2ed")
-		)
-		(pin "1"
-			(uuid "fefefdc3-0d58-402d-a8c1-4ec736784ea7")
-		)
-		(instances
-			(project "modretrocon"
-				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 166.37 40.64 0)
 		(unit 1)
@@ -5637,7 +5631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "62"
 			(at 168.91 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5846,6 +5840,96 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 149.86 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bfe9b4de-8692-42fe-9bc4-cd7eefdb1cab")
+		(property "Reference" "D11"
+			(at 154.432 48.514 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_GOOD"
+			(at 156.718 50.546 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:LEDC2012X110N"
+			(at 149.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/6920907/?grossPrice=Y&cm_mmc=UK-PLA-DS3A-_-google-_-PLA_UK_EN_Displays_And_Optoelectronics-_-LEDs_And_LED_Accessories-_-PRODUCT+GROUP&matchtype=&gclid=Cj0KCQjw8vnMBRDgARIsACm_BhL5snkjsAk6gK-vmanqdq02kRfWctzcy3t-1Yoin"
+			(at 149.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LTST-C170KGKT Light emitting diode"
+			(at 149.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 149.86 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a45a8efb-6665-429d-afc4-08a70bd25c96")
+		)
+		(pin "1"
+			(uuid "596363f1-6fbe-40c7-abb3-e822faf7a756")
+		)
+		(instances
+			(project "modretrocon"
+				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6412,99 +6496,6 @@
 			(project "modretrocon"
 				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 133.35 49.53 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d91b3a71-302d-47bc-a811-b3a622871bf3")
-		(property "Reference" "D5"
-			(at 137.16 49.8475 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "VBUS_GOOD"
-			(at 137.16 52.3875 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 133.35 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/3/57/1/hsmq_c170_t0000_ds100.pdf"
-			(at 133.35 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 133.35 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 133.35 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b2a4526-f867-4134-b3fa-66696bb8a8af")
-		)
-		(pin "1"
-			(uuid "0988ea08-3cf6-49db-85c0-4f27fd916276")
-		)
-		(instances
-			(project "modretrocon"
-				(path "/cf6749e4-132f-4e26-b0d6-92782ee54bed/fc2eba07-8169-42be-8db5-39602cf492b9"
-					(reference "D5")
 					(unit 1)
 				)
 			)
