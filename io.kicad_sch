@@ -2668,7 +2668,7 @@
 		)
 		(uuid "2b6d5b05-d0d0-4f2b-adb0-b4152d5dec79")
 	)
-	(text_box "USB-C connector (USB2.0 Upstream) & +5V@3A Power"
+	(text_box "USB-C connector (USB2.0 Upstream) & +5V@500mA Power"
 		(exclude_from_sim no)
 		(at 25.4 25.4 0)
 		(size 88.9 63.5)

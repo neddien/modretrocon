@@ -2279,7 +2279,7 @@
 		)
 		(uuid "336e2bf6-a5b3-485a-b1bb-7910e9b56192")
 	)
-	(text_box "5V -> 3.3V Buck @ 1.5A"
+	(text_box "5V -> 3.3V Buck @ 500mA"
 		(exclude_from_sim no)
 		(at 25.4 72.39 0)
 		(size 165.1 31.75)
@@ -2340,7 +2340,7 @@
 		)
 		(uuid "9a8fc78d-12a5-464e-9695-174861f93c47")
 	)
-	(text_box "5V @ 3A Main Power Rail"
+	(text_box "5V @ 500mA Main Power Rail"
 		(exclude_from_sim no)
 		(at 25.4 25.4 0)
 		(size 88.9 38.1)
